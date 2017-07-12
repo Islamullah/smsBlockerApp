@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMS ListView</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_new">createNew</string>
+    <string name="title_activity_sms_dboc">smsDBOC</string>
+    <string name="title_activity_read">ReadActivity</string>
+</resources>

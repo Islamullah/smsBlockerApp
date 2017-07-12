@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout android:id="@+id/linearLayout1"
+        android:layout_width="match_parent" android:layout_weight="0"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnInbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inbox"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/btnSentBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sent"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btnInbox"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/btnDraft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Draft"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btnSentBox"/>
+        <Button
+            android:id="@+id/btnBlocked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blocked"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btnDraft"/>
+    </RelativeLayout>
+
+    <ListView android:layout_width="match_parent"
+        android:layout_weight="1" android:layout_height="match_parent"
+        android:id="@android:id/list"></ListView>
+    <ListView android:layout_width="match_parent"
+        android:layout_weight="1" android:layout_height="match_parent"
+        android:id="@+id/list1"></ListView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_Manage" android:title="Manage Block List"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_Import" android:title="Import list"
+        android:orderInCategory="2" app:showAsAction="never" />
+    <item android:id="@+id/action_Export" android:title="Export list"
+        android:orderInCategory="3" app:showAsAction="never" />
+    <item android:id="@+id/action_Sort" android:title="Sort list"
+        android:orderInCategory="4" app:showAsAction="never" />
+
+</menu>
